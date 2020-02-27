@@ -1,3 +1,4 @@
+/*
 package com.atguigu.gmall.user;
 
 import org.springframework.boot.SpringApplication;
@@ -15,3 +16,4 @@ public class GmallUserApplication {
 	}
 
 }
+*/

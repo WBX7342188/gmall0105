@@ -4,15 +4,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.atguigu.gmall</groupId>
-    <artifactId>gmall-common-util</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>com.atguigu.gmall</groupId>
         <artifactId>gmall-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <groupId>com.atguigu.gmall</groupId>
+    <artifactId>gmall-common-util</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
     <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -22,6 +31,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -42,6 +53,32 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
         </dependency>
+
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.gitee.reger</groupId>
+            <artifactId>spring-boot-starter-dubbo</artifactId>
+        </dependency>
+
+
+
     </dependencies>
+
 
 </project>

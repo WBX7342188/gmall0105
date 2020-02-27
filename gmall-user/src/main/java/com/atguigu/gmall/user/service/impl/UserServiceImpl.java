@@ -1,3 +1,4 @@
+/*
 package com.atguigu.gmall.user.service.impl;
 
 import com.atguigu.gmall.service.UserService;
@@ -34,3 +35,4 @@ public class UserServiceImpl implements UserService {
         return umsMemberReceiveAddresses;
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package com.atguigu.gmall.user.controller;
 
 import com.atguigu.gmall.bean.UmsMemberReceiveAddress;
@@ -36,3 +37,4 @@ public class UserController{
 
 
 }
+*/
